@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int sum;
+    int count=0;
+    cin>>n;
+    if(n==0)
+    {
+       cout<<"1"; 
+    }
+    else
+    {
+        for(int i=n;i>0;i=i/10)
+        {
+            count++;
+        }
+    }
+    cout<<count;
+    return 0;
+}
