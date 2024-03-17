@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    
+    int flag=1;
+    while (n>1)
+    {
+        if (n%2==1)
+        {
+            cout<<"not a power of 2";
+            flag=0;
+            break;                                     //loop should be ended
+        }
+        n=n/2;
+    }
+    if (flag==1)
+    {
+        cout<<"a power of 2";
+    }
+    
+    return 0;
+}
