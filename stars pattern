@@ -9,7 +9,7 @@ int main()
     for(int i=1;i<=n;i++)
     {
         int spaces=i-1;
-        int stars=i;
+        int stars=n;
         for (int j=1;j<=spaces;j++)
         {
             cout<<" ";
